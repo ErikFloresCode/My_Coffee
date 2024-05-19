@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Coffee</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mi Cafe</string>
+    <string name="nav_header_subtitle">mi.cafe@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+    <!--contenido de los menus -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_products">Productos</string>
+    <string name="menu_locations">locaciones</string>
+    <string name="menu_hours">Horarios</string>
+    <string name="menu_promotions">Promociones</string>
+    <string name="menu_reserves">Reservas</string>
+    <string name="menu_exit">Salir</string>
+
+    <!--contenido de los fragmentos-->
+    <string name="welcome">Bienvenido</string>
+    <string name="welcomedescription">Nos alegra tenerte aquí. En el menú de la parte superior izquierda, encontrarás todo lo que necesitas: nuestro catálogo de productos para que explores, la opción de hacer reservaciones de manera rápida y sencilla, y la posibilidad de consultar las ubicaciones de nuestras sucursales para encontrar la más cercana a ti.</string>
+    <string name="nombre">Catalogo de Productos</string>
+    <string name="cafe1">Café latte macchiato</string>
+    <string name="descripcion">El Latte Macchiato es una bebida suave y cremosa, preparada con espresso y una pequeña cantidad de leche al vapor. La capa de café manchado sobre la leche caliente crea una experiencia única de sabores equilibrados.</string>
+    <string name="cafe2">Café con leche</string>
+    <string name="descripcion2">El café con leche es una mezcla reconfortante de café expreso y leche caliente, ofreciendo un equilibrio perfecto entre el sabor intenso del café y la suavidad de la leche.</string>
+    <string name="cafe3">Café con Chocolate</string>
+    <string name="descripcion3">El café con chocolate es una irresistible mezcla de café expreso y chocolate caliente, fusionando sabores intensos en una bebida reconfortante y deliciosa, perfecta para satisfacer antojos y elevar el ánimo.</string>
+    <string name="cafe4">Café con Cacao</string>
+    <string name="descripcion4">El café de cacao es una deliciosa variante que combina café recién preparado con cacao o chocolate. Esta mezcla ofrece una experiencia reconfortante al fusionar los intensos sabores del café con la dulzura y cremosidad del cacao o chocolate. Es una opción perfecta para aquellos que disfrutan de la combinación de café y chocolate.</string>
+    <string name="ingredientes_cafe1">Ingredientes:\n1.- Café expreso fuerte.\n2.- Leche.\n3.- Jarabe de vainilla o caramelo (opcional).</string>
+    <string name="preparacion_cafe1">Instrucciones:\n1.- Calienta la leche en un recipiente hasta que esté caliente pero no hirviendo.\n2.- Prepara un café expreso fuerte en una taza grande o un vaso alto.\n3.- Vierte la leche caliente lentamente sobre el café expreso, usando una cuchara para ayudar a controlar el flujo y crear capas.\n4.- Si lo deseas, agrega un chorrito de jarabe de vainilla o caramelo para dar sabor.\n5.- Sirve y disfruta de tu café latte macchiato caliente y delicioso.</string>
+    <string name="ingredientes_cafe2">Ingredientes:\n1.-Café expreso.\n2.-Leche.</string>
+    <string name="preparacion_cafe2">Instrucciones:\n1.-Prepara café expreso según tu preferencia en una taza.\n2.-Calienta la leche en una cacerola o en el microondas hasta que esté caliente pero no hirviendo.\n3.-Vierte la leche caliente en la taza con el café expreso, ajustando la proporción de café y leche según tu gusto personal.\n4.-Revuelve suavemente para mezclar el café y la leche.\n5.-¡Disfruta de tu café con leche caliente y reconfortante! Puedes acompañarlo con azúcar o endulzante si lo deseas.</string>
+    <string name="ingredientes_cafe3">Ingredientes:\n1.-Café expreso.\n2.-Chocolate en polvo o jarabe de chocolate.\n3.-Leche.\nCrema batida (opcional).\n4.-Chocolate rallado o cacao en polvo para decorar (opcional).</string>
+    <string name="preparacion_cafe3">Instrucciones:\n1.- Prepara café expreso en una taza.\n2.- Calienta la leche en una cacerola o en el microondas hasta que esté caliente pero no hirviendo.\n3.- Agrega el chocolate en polvo o el jarabe de chocolate a la leche caliente y mezcla hasta que esté bien incorporado.\n4.- Vierte la mezcla de leche con chocolate sobre el café expreso preparado.\n5.- Opcionalmente, puedes agregar una capa de crema batida en la parte superior.\n6.- Decora con chocolate rallado o cacao en polvo si lo deseas.\n7.- ¡Disfruta de tu café de chocolate indulgente y reconfortante!</string>
+    <string name="ingredientes_cafe4">Ingredientes:\n1.-Café expreso.\n2.-Cacao en polvo.\n3.-Leche.\nAzúcar o endulzante (opcional).\n4.-Crema batida (opcional).\n5.-Chispas de chocolate o polvo de cacao para decorar (opcional).</string>
+    <string name="preparacion_cafe4">Instrucciones:\n1.- Prepara un café expreso en una taza.\n2.- Calienta la leche en una cacerola o en el microondas hasta que esté caliente pero no hirviendo.\n3.- Agrega cacao en polvo a la leche caliente y revuelve hasta que esté completamente disuelto.\n4.- Opcionalmente, puedes endulzar la mezcla con azúcar o endulzante al gusto.\n5.- Vierte la mezcla de leche con cacao sobre el café expreso preparado.\n6.- Si deseas, agrega una capa de crema batida en la parte superior.\n7.- Decora con chispas de chocolate o polvo de cacao para dar un toque final.\n8.- ¡Disfruta de tu delicioso café de cacao con un sabor intenso y reconfortante!</string>
+
+</resources>

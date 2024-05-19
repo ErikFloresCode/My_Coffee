@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mycoffee.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.mycoffee.ui.products.ProductsFragment"
+        android:label="@string/menu_products"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/nav_locations"
+        android:name="com.example.mycoffee.ui.locations.MapsFragment"
+        android:label="@string/menu_locations"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_housr"
+        android:name="com.example.mycoffee.ui.hours.HoursFragment"
+        android:label="@string/menu_hours"
+        tools:layout="@layout/fragment_hours" />
+
+    <fragment
+        android:id="@+id/nav_promotions"
+        android:name="com.example.mycoffee.ui.promotions.PromotionsFragment"
+        android:label="@string/menu_promotions"
+        tools:layout="@layout/fragment_promotions" />
+
+    <fragment
+        android:id="@+id/nav_reserves"
+        android:name="com.example.mycoffee.ui.reserves.ReservesFragment"
+        android:label="@string/menu_reserves"
+        tools:layout="@layout/fragment_reserves" />
+
+</navigation>
