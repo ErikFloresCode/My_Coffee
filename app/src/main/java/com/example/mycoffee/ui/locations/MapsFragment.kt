@@ -3,9 +3,12 @@ package com.example.mycoffee.ui.locations
 import androidx.fragment.app.Fragment
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.mycoffee.BaseDatos
+import com.example.mycoffee.Lugares
 import com.example.mycoffee.R
 
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -17,17 +20,22 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsFragment : Fragment() {
 
+    var dbHandler: BaseDatos?=null
+
     private val callback = OnMapReadyCallback { googleMap ->
-        val central = LatLng(-19.04929799556433, -65.25701534045297)
-        googleMap.addMarker(MarkerOptions().position(central).title("Central"))
-
-        val sucursal1 = LatLng(-19.043287085371844, -65.24534711358874)
-        googleMap.addMarker(MarkerOptions().position(sucursal1).title("Sucursal Americas"))
-
-        val sucursal2 = LatLng(-19.03712566766408, -65.25328982863707)
-        googleMap.addMarker(MarkerOptions().position(sucursal2).title("Sucursal Campesino"))
-
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(central, 14f)) // 14 es el nivel de zoom
+        // Obtenemos los datos de la base de datos
+        val dbHandler = BaseDatos(requireContext())
+        val listTasks: List<Lugares> = dbHandler.lugar
+        for(lugares in listTasks) {
+            Log.d("Datos", "--->" + lugares.nombre)
+            if(lugares.latitud != null && lugares.longitud != null) {
+                val position = LatLng(lugares.latitud, lugares.longitud)
+                googleMap.addMarker(MarkerOptions().position(position).title(lugares.nombre))
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, 14f)) // 14 es el nivel de zoom
+            } else {
+                Log.d("Datos", "Latitud o Longitud no válidos para " + lugares.nombre)
+            }
+        }
     }
 
     override fun onCreateView(

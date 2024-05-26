@@ -23,11 +23,10 @@
         android:label="@string/menu_locations"
         tools:layout="@layout/fragment_maps" />
 
-    <fragment
-        android:id="@+id/nav_housr"
-        android:name="com.example.mycoffee.ui.hours.HoursFragment"
-        android:label="@string/menu_hours"
-        tools:layout="@layout/fragment_hours" />
+    <activity
+        android:id="@+id/nav_database"
+        android:name="com.example.mycoffee.DataBaseActivity"
+        android:label="@string/menu_database"/>
 
     <fragment
         android:id="@+id/nav_promotions"

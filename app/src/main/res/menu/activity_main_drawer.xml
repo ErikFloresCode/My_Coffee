@@ -24,6 +24,12 @@
             android:id="@+id/nav_reserves"
             android:icon="@drawable/ic_menu_reserves"
             android:title="@string/menu_reserves" />
+
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_menu_database"
+            android:title="@string/menu_database" />
+
         <item
             android:id="@+id/nav_exit"
             android:icon="@drawable/ic_menu_exit"

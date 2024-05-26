@@ -14,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCoffee"
         tools:targetApi="31">
-
+        <activity
+            android:name=".DataBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DataBaseActivity"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
